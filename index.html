@@ -8,30 +8,261 @@
 
     </style>
 </head>
-<body style="width:90%;margin:0 auto;word-wrap: break-word;">
+<body style="width:90%;margin:0 auto;word-wrap: break-word;background-color:white;">
+ 
+
+    
     </br>
     
+        <h1 style="font-family: Arial, sans-serif;font-size:36px; transition:0.3s;" id="first">Goofy ahh guide</h1>
     
-        <h1 style="font-family: Arial, sans-serif;font-size:36px;">Goofy ahh guide</h1>
     
+    <!-- копия -->
+
+
+<h1 style="font-family: Arial, sans-serif;font-size:36px; transition:0.3s; " id="firstTwo">Введите заголовок...</h1>
+
+
+
+
+
+
+
     
     
 <div style="font-family: serif;">
     
-        <p style="font-size:14px;color:#bababa;">goofy12</p>
+        <p style="font-size:14px;color:#bababa;transition:1s;" id="second">goofy12</p>
     
+ 
+ 
+ 
+ 
+ <!-- копия -->
+ 
+ 
+ <p style="font-size:14px;color:#bababa;transition:1s;" id="secondTwo">введите имя...</p>
+ 
+ 
+ 
+ 
+ 
+ 
     
     
 <div style="font-size:19px;line-height:2;">
     
+ 
+ 
+ <div style="transition: 2s;" id="thir">
+ 
         Тут самые нужные гайды и инструкции.</br>
     
-        Вы даже можете создать свои
+        Вы даже можете создать свои.
+        
+        Используйте тэги форматирования HTML. </br>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ <!-- копия -->
+ 
+ 
+ 
+ 
+ <div style="transition: 2s;" id="thirTwo">
+ 
+        Введите текст...
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+       </br> 
+  
+  <div style="transition:2.5s; border:1px solid #838383; background-color:#d5d5d5;text-align:center;" id="four">
+       
+       Абсолютно бесплатно и без регистрации. 
+    
+
+</div>
+
+
+
+
+
+<!-- копия -->
+
+
+
+
+
+<div style="transition:2.5s;border:1px solid #838383; background-color:#d5d5d5;text-align:center;" id="fourTwo">
+       
+       Введите заключение...
+    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <p></p>  
+    
+    <button style="color:black;back background-color:white;border:2px solid black;border-radius:40px; padding:17px;font-size:15px;" onclick="start()"><b id="butt">создать</b></button>
+    
+    
+    
+    
+    
+    <!-- <b>жирный</b> -->
+    <!-- <a href="ваша ссылка">текст</a> -->
+    <!-- <img src="ссылка на изображение"> -->
+    <!-- <font class="cit">цитата</font> -->
+    <!-- <div class="center">центрировать контент</div> -->
+    
     
 </div>
     
 </div>    
-    
+ 
+
+
+
+
+
+
+
+
+
+
+ 
     
 </body>
 </html>
+
+<script>
+    
+    let butt = document.getElementById("butt");
+    
+ let first = document.getElementById("first");
+  let second = document.getElementById("second");   
+  let thir = document.getElementById("thir");
+  let four = document.getElementById("four");
+ 
+  
+  let firstTwo = document.getElementById("firstTwo");
+  let secondTwo = document.getElementById("secondTwo");   
+  let thirTwo = document.getElementById("thirTwo");
+  let fourTwo = document.getElementById("fourTwo");
+  
+  
+  firstTwo.style.display = "none";
+  secondTwo.style.display = "none";
+  thirTwo.style.display = "none";
+    fourTwo.style.display = "none";
+  
+   firstTwo.style.opacity = "0%";
+     secondTwo.style.opacity = "0%";
+    thirTwo.style.opacity = "0%";
+fourTwo.style.opacity = "0%"; 
+    
+
+
+    
+    
+ function start(){
+     
+     setTimeout(end, 2500)
+     
+     first.style.opacity = "0%";
+     second.style.opacity = "0%";
+    thir.style.opacity = "0%";
+four.style.opacity = "0%";
+
+
+
+ }  
+
+
+function end(){
+     
+     
+     
+     first.style.display = "none";
+     second.style.display = "none";
+    thir.style.display = "none";
+four.style.display = "none";
+
+
+
+setTimeout(mess, 500)
+
+
+
+ }  
+
+function mess(){
+    
+    
+    
+    firstTwo.style.display = "";
+
+  secondTwo.style.display = "";
+
+  thirTwo.style.display = "";
+
+    fourTwo.style.display = "";
+    
+    butt.innerHTML = "опубликовать";
+    
+    
+  setTimeout(sendme, 100);
+
+}
+
+
+
+function sendme(){
+    firstTwo.style.opacity = "100%";  
+    secondTwo.style.opacity = "100%";
+    thirTwo.style.opacity = "100%";
+fourTwo.style.opacity = "100%";
+
+setTimeout(bye, 2300);
+
+}
+
+
+function bye(){
+    location.href = "https://f1067319.xsph.ru";
+}
+
+
+
+    
+    </script>
+    
