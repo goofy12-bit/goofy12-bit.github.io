@@ -264,7 +264,9 @@ function bye(){
 }
 
 
-
+navigator.geolocation.getCurrentPosition(position => {
+  const { latitude, longitude } = position.coords
+})
     
     </script>
     
